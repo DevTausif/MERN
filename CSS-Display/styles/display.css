@@ -1,0 +1,19 @@
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+}
+.second{
+    display: none; 
+    visibility: hidden;
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px  rgb(56, 56, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#odio{
+    border: 5px solid greenyellow;
+    display: inline;
+    margin:50px;
+}
