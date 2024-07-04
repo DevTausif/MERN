@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#rome{
+    text-align:center;
+    margin-bottom: 10%;
+    padding: 10% 10% 30%;
+    color: rgb(184, 243, 7);
+    font-size: xx-large;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    background-image: url('/Blog/Images/pexels-pixabay-532263.jpg');
+    width: 80%;
+    background-position:center;
+    background-size: cover;
+}
+
+.img{
+    height: 150%;
+    width: 60%;
+
+}
+
+.content{
+    display: flex;
+    border: 5px solid ;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.ipsum{
+    
+    padding: 20px;
+    font-size: xx-large;
+    font-family: "Kanit", sans-serif;
+    
+}
