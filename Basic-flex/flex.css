@@ -2,6 +2,12 @@
     padding: 25px;
     background-color: blanchedalmond;
     display: flex;
+    gap: 30px;
+    justify-content:space-between;
+    height: 350px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
 }
 
 .child{
@@ -9,7 +15,6 @@
     background: rgb(0, 255, 255);
     padding: 20px;
     font-size: 28px;
-    margin: 10px 0;
     /* display: inline; */
     /* width: 400px; */
 }
