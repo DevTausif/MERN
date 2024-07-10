@@ -1,0 +1,33 @@
+h3{
+    color: peru;
+}
+h3:hover{
+    color: brown;
+    background-color: blue;
+}
+input:focus{
+    color: aquamarine;
+    /* padding: 20px; */
+    outline: 0;
+    border: 5px solid red;
+}
+
+a:visited{
+    color: red;
+}
+
+li:last-child{
+    color: rgb(45, 125, 125);
+}
+
+li:first-child{
+    color: blueviolet;
+}
+
+li:nth-child(2n){
+    color: bisque;
+}
+
+li:nth-child(3n+1){
+    color: chartreuse;
+}
