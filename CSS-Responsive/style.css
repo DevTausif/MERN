@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 250px;
+    /* align-items: center; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px dashed tomato;
+}
