@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of Dom</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+    li{
+        color:crimson;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my dom</h1>
+    </header>
+    <main>
+        <h1>My Awesome Dom</h1>
+        <ul>
+            <li>Bangla Songs</li>
+            <li>Hindi Songs</li>
+            <li>English Songs</li>
+        </ul>
+    </main>
+    <script src="scripts/dom.js"></script>
+    <script>
+        const liCollection = document.getElementsByTagName('li');
+        for(const li of liCollection){
+            console.log(li.innerText);
+        }
+
+        const allHeading = document.getElementsByTagName('h1');
+
+        for(const h1 of allHeading){
+            console.log(h1.innerText);
+        }
+    </script>
+</body>
+</html>
